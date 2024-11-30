@@ -1,25 +1,19 @@
-College Database Tasks
-Recap 1
-Create a database for your college.
-Create a table named Teacher to store (id, name, subject, salary)
-Insert SOME data in the table
-. Select teachers whose salary is more than 55K
-· Rename the salary column of teacher table to ctc
-· Update salary of all teachers by giving them an increment of 25%
-. Add a new column for teachers called city. The default city should be "Helsinki"
-· Delete the salary column for teacher table
-Recap 2
-Qs: Create a table to store student info (roll_no, name, city, marks).
-Insert following data in the table :
-11, "Mark", "Mikkeli", 80
-17, "Elon", "Helsinki", 95
-24, "Markko", "Oulu", 65
-99, "Alex", "Lahti", 74
-. Select all students who scored 75+
-. Find names of all cities where students are from
-. Find the maximum marks of students from each city
-. Find the average of the class
-· Add a new column grade, assign grade such that :
-marks > 80, grade = O
-marks 70-80, grade = A
-marks 60-70, grade = B
+# SQL Practice: College Database Management
+
+This repository contains SQL practice tasks designed to enhance database management skills. Below are two practice recaps, covering table creation, data manipulation, and various queries.
+
+---
+
+## RECAP 1: College and Teacher Table
+
+### Objectives:
+1. Create a database for a college.
+2. Create a table named `Teacher` to store teacher information:
+   - **Columns:** `id`, `name`, `subject`, `salary`
+3. Insert sample data into the `Teacher` table.
+4. Perform the following tasks:
+   - Select teachers whose salary is more than 55K.
+   - Rename the `salary` column to `ctc`.
+   - Update the salary of all teachers by giving them a 25% increment.
+   - Add a new column `city` with a default value of `"Helsinki"`.
+   - Delete the `salary` column from the `Teacher` table.
